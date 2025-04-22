@@ -16,7 +16,7 @@ const rightItems = [
   {
     label: (
       <Link href="/auth/login" className="login-link">
-        Login
+        <span> Login </span>
       </Link>
     ),
     key: 'login',

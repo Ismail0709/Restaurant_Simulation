@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    
+    background-color: #C7DB9C;
+}
+  
+.login-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100%;   /* Full viewport width */
+    overflow: hidden; /* Prevent overflow */
+}
+  
+.login-image {
+    flex: 1; /* Takes up half the width */
+    background-image: url('/login.svg'); /* Your background image */
+    background-repeat: no-repeat; /* Change to no-repeat */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    background-color: #ffffff;
+}
+  
+.login-form-section {
+    flex: 1; /* Takes up half the width */
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    background-color: #C7DB9C; /* White background for form */
+    padding: 2rem; /* Padding for inner content */
+}
+  
+.form-box {
+    width: 100%;
+    max-width: 400px; /* Maximum width for the form */
+    background-color: #ffffff; /* White background */
+    padding: 2rem; /* Padding for the form box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.login-heading{
+    color: #5F8B4C; /* Green color for heading */
+}
+
+.create-account-button{
+    border: none;
+    color: #5F8B4C;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.main-button{
+    background-color: #5F8B4C;
+}
+
+.main-button:hover {
+    color: #5F8B4C !important;
+    background-color: #C7DB9C !important;
+}

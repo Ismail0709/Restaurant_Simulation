@@ -26,7 +26,7 @@
   .navbar-right {
     display: flex;
     gap: 20px;
-    background-color: #5F8B4C; /* Yellow border */
+    background-color: #ffffff; /* Yellow border */
   }
   
   .navbar-menu {
@@ -55,26 +55,27 @@
   .navbar-menu .ant-menu-item:hover::after,
   .navbar-menu .ant-menu-item-active::after,
   .navbar-menu .ant-menu-item-selected::after {
-    border-bottom: 2px solid #FFA725 !important; /* Yellow underline on hover/active */
+    border-bottom: 2px solid #FFA725 !important; 
   }
 
   .login-link {
     position: relative;
     display: inline-block;
-    color: white;
+    color: #5F8B4C;
     padding: 6px 16px;
     border: 2px solid #FFA725;
+    background-color: #ffffff;
     border-radius: 20px;
     text-decoration: none;
     font-size: 15px;
     transition: all 0.3s ease;
   }
+
+  .login-link span{
+    color: #5F8B4C;
+    font-size: 15px;
+    font-weight: 500;
+  }
   
   /* Yellow Underline directly under the text on hover */
-  .login-link:hover {
-    color: white;
-    border-color: #FFA725;
-    text-decoration: underline;
-    text-decoration-color: #FFA725;
-    text-underline-offset: 4px;
-  }
+  
