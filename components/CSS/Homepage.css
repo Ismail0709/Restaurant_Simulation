@@ -24,6 +24,7 @@ body {
     text-align: center;
     color: white;
     overflow: hidden;
+    width: 200vh;
   }
   
   .hero-image {
@@ -74,6 +75,7 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    background-image: url('/background.jpg');
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
@@ -86,6 +88,13 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     color: #5F8B4C;
+  }
+
+  .features-heading{
+    margin: 2rem 0;
+    height: 60px;
+    background-color: #C7DB9C;
+    border-radius: 12px;
   }
   
   .feature-grid {
@@ -100,7 +109,7 @@ body {
   
   .feature-card {
     background-color: #C7DB9C;
-    padding: 2rem;
+    padding: 1rem 1rem;
     border-radius: 0.75rem;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     text-align: center;
@@ -116,6 +125,7 @@ body {
     margin: 0 auto 1rem;
     font-size: 2rem;
     color: #5F8B4C;
+    border-radius: 8px;
   }
   
   .feature-card h3 {

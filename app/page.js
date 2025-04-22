@@ -10,7 +10,6 @@ import Card3 from '../public/Card3.jpg';
 export default function HomePage() {
   return (
     <div className="home-page">
-      {/* Hero Section */}
       <div className="hero">
         <Image
           src={Hero} 
@@ -39,8 +38,8 @@ export default function HomePage() {
               <Image
                 src={Card1}
                 alt="Queue Simulation"
-                width={80}
-                height={80}
+                width={300}
+                height={300}
                 className="feature-icon"
               />
               <h3 className='feature-card-heading'>Queue Simulation</h3>
@@ -50,8 +49,8 @@ export default function HomePage() {
               <Image
                 src={Card2}
                 alt="Real-Time KPIs"
-                width={80}
-                height={80}
+                width={300}
+                height={300}
                 className="feature-icon"
               />
               <h3 className='feature-card-heading'>Real-Time KPIs</h3>
@@ -61,8 +60,8 @@ export default function HomePage() {
               <Image
                 src={Card3}
                 alt="Advanced Analytics"
-                width={80}
-                height={80}
+                width={300}
+                height={300}
                 className="feature-icon"
               />
               <h3 className='feature-card-heading'>Advanced Analytics</h3>

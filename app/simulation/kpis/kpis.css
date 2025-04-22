@@ -7,19 +7,21 @@
   
   body {
     font-family: 'Inter', sans-serif;
-    background: #f4f6f8;
+    background-color: #5F8B4C;
     color: #2f2f2f;
     line-height: 1.6;
+    
   }
   
   /* KPI Container */
   .kpi-container {
     min-height: 100vh;
-    padding: 2rem 1rem;
+    padding: 2rem 5rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+    background: #5F8B4C;
+    border-radius: 12px;
   }
   
   /* Wrapper with max-width */
@@ -36,16 +38,16 @@
     font-size: 3rem;
     font-weight: 800;
     text-align: center;
-    color: #1e3a8a;
+    color: #FFA725;
     margin-bottom: 1rem;
     position: relative;
   }
   
   .kpi-header::after {
     content: '';
-    width: 60px;
+    width: 480px;
     height: 4px;
-    background-color: #3b82f6;
+    background-color: #FFA725;
     display: block;
     margin: 0.5rem auto 0;
     border-radius: 2px;
@@ -58,7 +60,7 @@
     padding: 2rem;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
-    border-left: 6px solid #3b82f6;
+    border-left: 6px solid #FFA725;
   }
   
   .kpi-section:hover {
@@ -70,7 +72,7 @@
   .kpi-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #5F8B4C;
     margin-bottom: 1rem;
     border-bottom: 2px solid #e5e7eb;
     padding-bottom: 0.5rem;

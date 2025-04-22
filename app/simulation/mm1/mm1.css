@@ -1,6 +1,7 @@
 /* mm1.css */
 .mm1-page {
     display: flex;
+    background-image: url('/background.jpg');
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -17,18 +18,21 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    flex-direction: row;
   }
   
   .form-section {
     flex: 1;
     padding: 30px;
     border-right: 1px solid #e0e0e0;
+    background-color: #C7DB9C;
+    border-radius: 8px;
   }
   
   .title {
     font-size: 24px;
     font-weight: bold;
-    color: #333333;
+    color: #5F8B4C;
     margin-bottom: 20px;
   }
   
@@ -51,6 +55,7 @@
     font-size: 14px;
     width: 100%;
     transition: border-color 0.3s ease;
+    margin-bottom: 10px;
   }
   
   .input-field:focus {
@@ -93,27 +98,28 @@
   }
   
   .results {
-    background-color: #ffffff;
+    background-color: #C7DB9C;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #5F8B4C;
   }
   
   .results-title {
     font-size: 20px;
     font-weight: bold;
-    color: #333333;
+    color: #5F8B4C;
     margin-bottom: 15px;
   }
   
   .results p {
     font-size: 16px;
-    color: #555555;
+    color: #ffffff;
     margin: 10px 0;
   }
   
   .results p strong {
-    color: #333333;
+    color: #5F8B4C;
   }
   
   /* Responsive Design */

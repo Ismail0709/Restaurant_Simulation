@@ -1,5 +1,6 @@
 .mmc-page {
     display: flex;
+    background-image: url('/background.jpg');
     justify-content: center;
     align-items: center;
     min-height: 100vh;
