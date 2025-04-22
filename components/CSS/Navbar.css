@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: #5F8B4C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+  
+  .navbar-left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #5F8B4C;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+    background-color: #5F8B4C; /* Yellow border */
+  }
+  
+  .navbar-menu {
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+    background-color: #5F8B4C;
+    color: #ffffff !important; /* Override Ant styles */
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #ffffff !important; /* Fix for white links */
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    color: #FFA725 !important; /* Yellow on hover */
+  }
+  
+  .navbar-menu .ant-menu-item::after {
+    border-bottom: 2px solid transparent !important; /* No underline by default */
+    transition: border-color 0.3s ease;
+  }
+  
+  .navbar-menu .ant-menu-item:hover::after,
+  .navbar-menu .ant-menu-item-active::after,
+  .navbar-menu .ant-menu-item-selected::after {
+    border-bottom: 2px solid #FFA725 !important; /* Yellow underline on hover/active */
+  }
+
+  .login-link {
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding: 6px 16px;
+    border: 2px solid #FFA725;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Yellow Underline directly under the text on hover */
+  .login-link:hover {
+    color: white;
+    border-color: #FFA725;
+    text-decoration: underline;
+    text-decoration-color: #FFA725;
+    text-underline-offset: 4px;
+  }
