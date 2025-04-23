@@ -19,7 +19,7 @@ export default function HomePage() {
           priority
         />
         <div className="hero-content">
-          <h1>Welcome to Restaurant Simulation</h1>
+          <h1>Welcome to QueueBites</h1>
           <p>Simulate MM1 and MMC queues with real-time KPIs.</p>
           <Link href="/simulation/mm1" className="cta-button">
             Get Started

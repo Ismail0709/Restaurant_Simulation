@@ -1,4 +1,4 @@
-import 'antd/dist/reset.css'; // Use a relative path since it's in the same directory
+import 'antd/dist/antd.css';
 import Navbar from "../components/Navbar";
 import { SimulationProvider } from "../context/SimulationContext";
 import { AuthProvider } from "../context/AuthContext";

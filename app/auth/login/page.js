@@ -12,7 +12,7 @@ export default function Login() {
     try {
       await signInWithEmailAndPassword(auth, values.email, values.password);
       message.success('Login successful!');
-      router.push('/dashboard'); // ✅ Redirect after login
+      router.push('/'); // ✅ Redirect after login
     } catch (error) {
       message.error('Invalid credentials!');
     }
@@ -37,7 +37,7 @@ export default function Login() {
               </Button>
             </Form.Item>
           </Form>
-          <div className="text-center mt-4">
+          <div className="login-footer">
             <p className="text-gray-600">
               Don’t have an account?{' '}
               <button

@@ -4,15 +4,15 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: sans-serif;
-    
-    background-color: #C7DB9C;
+    background-color: #C7DB9C !important;
 }
   
 .login-container {
     display: flex;
     height: 100vh; /* Full viewport height */
     width: 100%;   /* Full viewport width */
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden;
+    background-color: #C7DB9C; /* Prevent overflow */
 }
   
 .login-image {
@@ -56,10 +56,15 @@ html, body {
 }
 
 .main-button{
-    background-color: #5F8B4C;
+    background-color: #5F8B4C !important;
+    border: #5F8B4C !important;
 }
 
 .main-button:hover {
     color: #5F8B4C !important;
     background-color: #C7DB9C !important;
+}
+
+.login-footer{
+    text-align: center;
 }

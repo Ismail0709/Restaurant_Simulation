@@ -98,28 +98,28 @@
   }
   
   .results {
-    background-color: #C7DB9C;
+    background-color: #C7DB9C !important;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #5F8B4C;
+    color: #5F8B4C !important;
   }
   
   .results-title {
     font-size: 20px;
     font-weight: bold;
-    color: #5F8B4C;
+    color: #5F8B4C !important;
     margin-bottom: 15px;
   }
   
   .results p {
     font-size: 16px;
-    color: #ffffff;
+    color: #ffffff !important;
     margin: 10px 0;
   }
   
   .results p strong {
-    color: #5F8B4C;
+    color: #5F8B4C !important;
   }
   
   /* Responsive Design */
